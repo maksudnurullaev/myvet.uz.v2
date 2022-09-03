@@ -22,6 +22,9 @@
       </div>
     </div>
     <hr />
+    <!-- <div class="container"> -->
+    <home-page-carousel />
+    <!-- </div> -->
     <h4>Полезные статьи</h4>
     <div class="row">
       <div class="col">
@@ -130,11 +133,6 @@
   </div>
 </template>
 
-<style scoped>
-.test-div {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: rgb(138, 235, 134);
-  border: 1px solid green;
-}
-</style>
+<script setup lang="ts">
+import HomePageCarousel from "@/components/HomePageCarousel.vue";
+</script>
