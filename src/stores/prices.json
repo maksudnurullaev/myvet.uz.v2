@@ -6,7 +6,7 @@
     { "type": "row", "value": "Вакцинация (без учета стоимости вакцины)", "price": 25000},
     { "type": "group", "value": "Вызов врача на дом без учета стоимости дорожных расходов и медикаментов"},
     { "type": "group-price", "value": "с 9:00 до 21:00", "price": 70000},
-    { "type": "group-price", "value": "с 21:00 до 9:00", "price": 10000},
+    { "type": "group-price", "value": "с 21:00 до 9:00", "price": 100000},
 
     { "type": "header", "value": "Инъекции"},
     { "type": "row", "value": "Забор крови", "price": 15000},
