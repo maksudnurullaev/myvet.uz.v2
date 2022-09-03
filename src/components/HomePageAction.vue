@@ -9,7 +9,7 @@
         клиники MyVet.Uz проводят
       </h5>
       <p class="card-text">кастрацию и стерилизацию кошек и собак</p>
-      <a href="#" class="btn btn-primary">Оставить заявку</a>
+      <a href="tel:+998909653034" class="btn btn-primary">Оставить заявку</a>
     </div>
     <div class="card-footer text-muted">
       Акция продлится всего 2 недели - с 17-21 октября 2022 г. Приём ведут
