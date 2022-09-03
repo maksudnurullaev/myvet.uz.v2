@@ -22,6 +22,15 @@
             class="card-link"
             >© В. Гюго</a
           >
+          <br /><br />
+          <a
+            href="tel:+998909653034"
+            type="button"
+            class="btn btn-primary bt-3"
+            id="liveAlertBtn"
+          >
+            График работы - 24/7. Телефон: 90 965 30 34
+          </a>
         </div>
       </div>
     </div>
