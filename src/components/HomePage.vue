@@ -21,22 +21,6 @@
         </div>
       </div>
     </div>
-    <!-- О компании -->
-    <div class="mt-2 mb-2">
-      <div class="card">
-        <img
-          src="/Favicon_1_256.ico"
-          class="card-img-left"
-          alt="We are loving animals!"
-        />
-        <div class="card-body">
-          <h5 class="card-title">О MyVet.Uz</h5>
-          <p class="card-text">
-            <span class="font-italic"> О компании??? </span>
-          </p>
-        </div>
-      </div>
-    </div>
     <hr />
     <h4>Полезные статьи</h4>
     <div class="row">
