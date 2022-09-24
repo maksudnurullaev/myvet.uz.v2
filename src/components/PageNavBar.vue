@@ -15,7 +15,7 @@ const resources = reactive({
 // function menuClicked(myArg: object) {
 function menuClicked() {
   if (navTogglerIcon.value?.offsetParent) {
-    navTogglerIcon.value.click(); // close navigation manu for mobile view
+    navTogglerIcon.value.click(); // close navigation menu for mobile view
   }
 }
 </script>

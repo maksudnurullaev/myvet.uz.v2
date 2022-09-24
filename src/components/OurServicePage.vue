@@ -41,26 +41,32 @@
                 class="text-center"
                 v-bind:id="'group-of-prices-' + index"
               >
-                {{ prow.value }}
+                {{ getNumbering(prow) }} {{ prow.value }}
               </th>
             </template>
             <template v-else-if="prow.type == 'row'">
-              <td>{{ prow.value }}</td>
+              <td>{{ getNumbering(prow) }} {{ prow.value }}</td>
               <td>{{ formatPriceNumber(prow.price!) }}</td>
             </template>
             <template v-else-if="prow.type == 'group'">
-              <td colspan="2" class="text-center">{{ prow.value }}</td>
+              <td colspan="2" class="text-center">
+                {{ getNumbering(prow) }} {{ prow.value }}
+              </td>
             </template>
             <template v-else-if="prow.type == 'group-price'">
-              <td class="text-end">{{ prow.value }}</td>
+              <td class="text-end">
+                {{ getNumbering(prow) }} {{ prow.value }}
+              </td>
               <td>{{ formatPriceNumber(prow.price!) }}</td>
             </template>
             <template v-else-if="prow.type == 'group-price-from'">
-              <td class="text-end">{{ prow.value }}</td>
+              <td class="text-end">
+                {{ getNumbering(prow) }} {{ prow.value }}
+              </td>
               <td>от {{ formatPriceNumber(prow.price!) }}</td>
             </template>
             <template v-else-if="prow.type == 'row-price-from'">
-              <td>{{ prow.value }}</td>
+              <td>{{ getNumbering(prow) }} {{ prow.value }}</td>
               <td>от {{ formatPriceNumber(prow.price!) }}</td>
             </template>
           </tr>
@@ -76,6 +82,12 @@
 <script setup lang="ts">
 import prices from "@/stores/prices.json";
 
+const Numbering = {
+  N1: 0,
+  N12: 0,
+  N123: 0,
+};
+
 interface prow {
   type: string;
   value: string;
@@ -85,6 +97,31 @@ interface prow {
 interface pQLink {
   value: string;
   link: string;
+}
+
+function getNumbering(r: prow): string {
+  let result = "";
+  console.log("r.type", r.type);
+  if (r.type == "header") {
+    Numbering.N1 = Numbering.N1 + 1;
+    result = Numbering.N1 + ".";
+    Numbering.N12 = 0;
+    Numbering.N123 = 0;
+  } else if (
+    r.type == "row" ||
+    r.type == "row-price-from" ||
+    r.type == "group"
+  ) {
+    Numbering.N12 = Numbering.N12 + 1;
+    result = Numbering.N1 + "." + Numbering.N12;
+    if (r.type == "group") {
+      Numbering.N123 = 0;
+    }
+  } else if (r.type == "group-price" || r.type == "group-price-from") {
+    Numbering.N123 = Numbering.N123 + 1;
+    result = Numbering.N1 + "." + Numbering.N12 + "." + Numbering.N123;
+  }
+  return result;
 }
 
 function getQLinksGroup(): pQLink[] {
@@ -98,8 +135,6 @@ function getQLinksGroup(): pQLink[] {
 }
 
 function formatPriceNumber(price: number): string {
-  return (
-    price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + " сум"
-  );
+  return price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 }
 </script>
