@@ -6,7 +6,7 @@ const navTogglerIcon = ref<HTMLElement | null>(null);
 const resources = reactive({
   MainMenuBar: [
     { path: "/", title: "Главная" },
-    { path: "/ourservices", title: "Услуги и цены" },
+    // { path: "/ourservices", title: "Услуги и цены" },
     { path: "/login", title: "Вход" },
     { path: "/about", title: "О нас" },
   ],

@@ -8,7 +8,7 @@
             <h5 class="card-title">Наши контакты</h5>
             <p class="card-text">
               <strong>Наш адрес:</strong>
-              <br />г. Ташкент <br />Яшнабадский р-н <br />улица Чигил, дом 32А. <a href="tel:+998981553035" class="btn btn-primary btn-lg">Телефон: (98) 155 30 35</a>
+              <br />г. Ташкент <br />Яшнабадский р-н <br />улица Чигил, дом 32А. <a href="tel:+998909653034" class="btn btn-primary btn-lg">Телефон: (90) 965 30 34</a>
             </p>
             <p>
               <a href="https://yandex.uz/maps/-/CCUVnNx2dD" target="_blank">Яндекс Карты</a>&nbsp; <a href="https://t.me/myvetuz" target="_blank">Telegram</a>&nbsp; <a href="https://www.instagram.com/p/B_SFawJJtfM/?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>

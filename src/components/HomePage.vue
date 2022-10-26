@@ -24,12 +24,12 @@
           >
           <br /><br />
           <a
-            href="tel:+998981553035"
+            href="tel:+998909653034"
             type="button"
             class="btn btn-primary bt-3 btn-lg"
             id="liveAlertBtn"
           >
-            График работы - 24/7. Телефон: 98 155 30 35
+            График работы - 24/7. Телефон: (90) 965 30 34
           </a>
         </div>
       </div>
