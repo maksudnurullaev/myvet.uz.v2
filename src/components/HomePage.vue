@@ -29,7 +29,7 @@
             class="btn btn-primary bt-3 btn-lg"
             id="liveAlertBtn"
           >
-            График работы - 24/7. Телефон: (90) 965 30 34
+            Звоните на номер: (90) 965 30 34
           </a>
         </div>
       </div>
