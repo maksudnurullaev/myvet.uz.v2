@@ -10,7 +10,7 @@
       </h5>
       <a href="tel:+998909653034" class="btn btn-primary btn-lg"
         >Позвоните (90) 965 30 34</a
-      > или пишите в <a class="btn btn-warning btn-lg" href="https://t.me/myvetuz">телеграм</a>
+      > или пишите в <a href="https://t.me/myvetuz">телеграм</a>
     </div>
     
   </div>
