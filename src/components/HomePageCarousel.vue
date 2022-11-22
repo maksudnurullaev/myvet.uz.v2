@@ -7,21 +7,49 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
-          src="/photos/animals/Carousel-Kitty-1.png"
+          src="/photos/animals/vkk-1.png"
           class="d-block w-100"
           alt="..."
         />
       </div>
       <div class="carousel-item">
         <img
-          src="/photos/animals/Carousel-Kitty-2.png"
+        src="/photos/vka-1.png"
           class="d-block w-100"
           alt="..."
         />
       </div>
       <div class="carousel-item">
         <img
-          src="/photos/animals/Carousel-Kitty-3.png"
+        src="/photos/animals/vkk-2.png"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+        src="/photos/animals/vkk-3.png"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item active">
+        <img
+          src="/photos/animals/vkd-1.png"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+        src="/photos/animals/vkd-2.png"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+        src="/photos/animals/vkd-3.png"
           class="d-block w-100"
           alt="..."
         />
