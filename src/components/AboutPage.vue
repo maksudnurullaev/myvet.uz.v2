@@ -28,6 +28,16 @@
       </div>
       <div class="col">
         <div class="card mt-2" style="max-width: 350px">
+          <a target="_blank" href="/photos/license.png">
+            <img src="/photos/license.png" class="card-img-top" alt="..." />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Лицензия</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mt-2" style="max-width: 350px">
           <img src="/Logo-Small.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">О нас</h5>
