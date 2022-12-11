@@ -1,9 +1,9 @@
 <template>
   <!-- view-Home-->
   <div class="container">
-    <home-page-action />
+    <!-- <home-page-action /> -->
     <!-- Цитаты -->
-    <!-- <div class="mt-2 mb-2">
+    <div class="mt-2 mb-2">
       <div class="card text-dark bg-light">
         <div class="card-body">
           <img
@@ -34,7 +34,7 @@
           </a>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- <div class="container"> -->
     <home-page-carousel />
     <!-- </div> -->
