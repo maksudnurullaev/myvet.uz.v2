@@ -40,13 +40,10 @@ interface thought {
   authorLink?: string;
 }
 
-const thoughtsOfTheGreats: thought[] = [
+const thoughtsOfTheGreats: thought[][] = [
   [
     {
-      text: `
-      Животные суть не что иное, как прообразы наших добродетелей и
-      пороков, блуждающих пред нашим взором, призраки наших душ...
-     `,
+      text: "Животные суть не что иное, как прообразы наших добродетелей и пороков, блуждающих пред нашим взором, призраки наших душ...",
       author: "© В. Гюго",
       authorLink: "https://ru.wikipedia.org/wiki/%D0%93%D1%8E%D0%B3%D0%BE,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80",
     },
@@ -76,7 +73,7 @@ const thoughtsOfTheGreats: thought[] = [
 
 // Иеремия Бентам
 
-function getNextThought(): thought {
+function getNextThought(): thought[] {
   return thoughtsOfTheGreats[Math.floor(Math.random()*thoughtsOfTheGreats.length)];
 }
 </script>
