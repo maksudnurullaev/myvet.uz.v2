@@ -1,9 +1,9 @@
 <template>
   <!-- view-Home-->
   <div class="container">
-    <!-- <home-page-action /> -->
+    <home-page-action />
     <!-- Цитаты -->
-    <div class="mt-2 mb-2">
+    <!-- <div class="mt-2 mb-2">
       <div class="card text-dark bg-light">
         <template v-for="tt in getNextThought()">
           <div class="card-body">
@@ -17,13 +17,13 @@
             <a href="{{ tt.authorLink }}"
               target="_blank" class="card-link">{{ tt.author}}</a>
             <br /><br />
-            <a href="tel:+998909653034" type="button" class="btn btn-primary bt-3 btn-lg" id="liveAlertBtn">
-              Звоните на номер: (90) 965 30 34
+            <a href="tel:+998994425080" type="button" class="btn btn-primary bt-3 btn-lg" id="liveAlertBtn">
+              Звоните на номер: (99) 442 50 80
             </a>
           </div>
         </template>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="container"> -->
     <home-page-carousel />
     <!-- </div> -->
@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 import HomePageCarousel from "@/components/HomePageCarousel.vue";
-// import HomePageAction from "@/components/HomePageAction.vue";
+import HomePageAction from "@/components/HomePageAction.vue";
 
 interface thought {
   text: string;
