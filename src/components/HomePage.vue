@@ -19,9 +19,9 @@ import HomePageDefault from "@/components/HomePageDefault.vue";
 
 function isDate(year: number, month: number, day: number): boolean {
   const d = new Date(),
-    cMonth = "" + (d.getMonth() + 1),
-    cDay = "" + d.getDate(),
+    cMonth = d.getMonth() + 1,
+    cDay = d.getDate(),
     cYear = d.getFullYear();
-    return year <= cYear && month <= cMonth && day >= cDay;
+  return year <= cYear && month <= cMonth && day >= cDay;
 }
 </script>
