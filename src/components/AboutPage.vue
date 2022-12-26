@@ -25,6 +25,15 @@
             </p>
           </div>
         </div>
+        <div class="card mt-2" style="min-width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Возможность оплаты:</h5>
+            <p class="card-text">
+              <a href="https://transfer.paycom.uz/632d940f0076c5b9e24df061" target="_blank">Payme</a>&nbsp; 
+              <a href="https://indoor.click.uz/pay?id=050148&t=0" target="_blank">Click</a>
+            </p>
+          </div>
+        </div>
       </div>
       <div class="col">
         <div class="card mt-2" style="max-width: 350px">
