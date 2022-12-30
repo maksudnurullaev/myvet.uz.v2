@@ -5,7 +5,7 @@
       График работы: понедельник-суббота, с 10:00 до 18:00<br /><u class="text-uppercase">воскресенье: по предварительной записи</u>!
     </h1>
 
-    <template v-if="isDate(2022, 12, 21)">
+    <template v-if="isLessDate(2023, 1, 3)">
       <home-page-action />
     </template>
     <template v-else>
@@ -21,11 +21,18 @@ import HomePageCarousel from "@/components/HomePageCarousel.vue";
 import HomePageAction from "@/components/HomePageAction.vue";
 import HomePageDefault from "@/components/HomePageDefault.vue";
 
-function isDate(year: number, month: number, day: number): boolean {
+function isLessDate(year: number, month: number, day: number): boolean {
   const d = new Date(),
     cMonth = d.getMonth() + 1,
     cDay = d.getDate(),
     cYear = d.getFullYear();
-  return year <= cYear && month <= cMonth && day >= cDay;
+  if (year < cYear ){
+    return true
+  } else if( month < cMonth ){
+    return true
+  } else if ( day < cDay ) {
+    return true
+  }
+  return false
 }
 </script>
