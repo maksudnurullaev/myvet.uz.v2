@@ -22,17 +22,18 @@ import HomePageAction from "@/components/HomePageAction.vue";
 import HomePageDefault from "@/components/HomePageDefault.vue";
 
 function isLessDate(year: number, month: number, day: number): boolean {
-  const d = new Date(),
-    cMonth = d.getMonth() + 1,
-    cDay = d.getDate(),
-    cYear = d.getFullYear();
-  if (year < cYear ){
-    return true
-  } else if( month < cMonth ){
-    return true
-  } else if ( day < cDay ) {
-    return true
-  }
-  return false
+  return false;
+  // const d = new Date(),
+  //   cMonth = d.getMonth() + 1,
+  //   cDay = d.getDate(),
+  //   cYear = d.getFullYear();
+  // if (year < cYear ){
+  //   return true
+  // } else if( month < cMonth ){
+  //   return true
+  // } else if ( day < cDay ) {
+  //   return true
+  // }
+  // return false
 }
 </script>
