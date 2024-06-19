@@ -2,7 +2,7 @@
   "name": "myvet.uz",
   "version": "0.0.1",
   "scripts": {
-    "front-dev": "vite --port 8081",
+    "front-dev": "vite --port 8080",
     "front-clean": "rimraf dist/front",
     "front-build": "run-p front-type-check front-build-only",
     "front-preview": "vite preview --port 4173",
