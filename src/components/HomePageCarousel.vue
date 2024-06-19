@@ -6,15 +6,11 @@
   >
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img
-          src="/photos/vka-1_240x320.png"
-          class="d-block w-100"
-          alt="..."
-        />
+        <img src="/photos/vka-1_240x320.png" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
         <img
-        src="/photos/animals/vkk-2_240x320.png"
+          src="/photos/animals/vkk-2_240x320.png"
           class="d-block w-100"
           alt="..."
         />
@@ -28,14 +24,14 @@
       </div>
       <div class="carousel-item">
         <img
-        src="/photos/animals/vkd-2_240x320.png"
+          src="/photos/animals/vkd-2_240x320.png"
           class="d-block w-100"
           alt="..."
         />
       </div>
       <div class="carousel-item">
         <img
-        src="/photos/animals/vkd-3_240x320.png"
+          src="/photos/animals/vkd-3_240x320.png"
           class="d-block w-100"
           alt="..."
         />

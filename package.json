@@ -2,7 +2,7 @@
   "name": "myvet.uz",
   "version": "0.0.1",
   "scripts": {
-    "front-dev": "vite",
+    "front-dev": "vite --port 8081",
     "front-clean": "rimraf dist/front",
     "front-build": "run-p front-type-check front-build-only",
     "front-preview": "vite preview --port 4173",
@@ -11,11 +11,13 @@
     "front-test:e2e:ci": "start-server-and-test front-preview http://localhost:4173/ 'cypress run --e2e'",
     "front-build-only": "vite build",
     "front-type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "front-lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+    "front-lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "start": "npm run front-build && npm run front-dev"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.0",
+    "http-server": "^14.1.1",
     "pinia": "^2.0.16",
     "rimraf": "^3.0.2",
     "vue": "^3.2.37",

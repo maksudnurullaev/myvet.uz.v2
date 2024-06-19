@@ -1,18 +1,28 @@
 <template>
   <div class="mt-2 mb-2">
     <div class="card text-dark bg-light">
-      <template v-for="tt in getNextThought()">
+      <template v-for="tt in getNextThought()" :key="tt">
         <div class="card-body">
-          <img src="/photos/Logo_horizontal_small.jpg" class="rounded float-start me-2 d-none d-lg-block" />
+          <img
+            src="/photos/Logo_horizontal_small.jpg"
+            class="rounded float-start me-2 d-none d-lg-block"
+          />
           <h5 class="card-title">Мысли о животных</h5>
           <p class="card-text">
             <span class="font-italic">
               {{ tt.text }}
             </span>
           </p>
-          <a href="{{ tt.authorLink }}" target="_blank" class="card-link">{{ tt.author }}</a>
+          <a href="{{ tt.authorLink }}" target="_blank" class="card-link">{{
+            tt.author
+          }}</a>
           <br /><br />
-          <a href="tel:+998994425080" type="button" class="btn btn-primary bt-3 btn-lg" id="liveAlertBtn">
+          <a
+            href="tel:+998994425080"
+            type="button"
+            class="btn btn-primary bt-3 btn-lg"
+            id="liveAlertBtn"
+          >
             Звоните на номер: (99) 442 50 80
           </a>
         </div>

@@ -13,13 +13,12 @@ import VueGTag from "vue-gtag";
 
 const app = createApp(App);
 
-
 app.use(createPinia());
 app.use(router);
 app.use(VueGTag, {
-    config: {
-        id: "G-X7S41BYL1H",
-    }
+  config: {
+    id: "G-X7S41BYL1H",
+  },
 });
 
 app.mount("#app");

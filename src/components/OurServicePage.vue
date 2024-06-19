@@ -2,7 +2,9 @@
   <!-- view-Home-->
   <div class="container">
     <h1 class="text-center mt-3">Услуги и цены</h1>
-    <div class="text-center text-bg-danger mt-3 mb-1 sticky-top">Цены указаны без медикаментов и перевязочных материалов!</div>
+    <div class="text-center text-bg-danger mt-3 mb-1 sticky-top">
+      Цены указаны без медикаментов и перевязочных материалов!
+    </div>
     <div class="sticky-top">
       <div class="dropdown">
         <button
