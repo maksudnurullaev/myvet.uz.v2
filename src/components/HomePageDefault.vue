@@ -70,7 +70,7 @@ const thoughtsOfTheGreats: thought[][] = [
   ],
   [
     {
-      text: "Нации можно судить о её величии и моральном прогрессе по тому, как она обращается с животными",
+      text: "О нации можно судить по её величию и моральному прогрессу по тому, как она обращается с животными",
       author: "© Махатма Ганди",
       authorLink: "https://ru.citaty.net/tsitaty/630300-makhatma-gandi-o-velichii-natsii-i-ee-moralnom-progresse-mozhno-sud/",
     },
