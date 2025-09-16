@@ -68,6 +68,13 @@ const thoughtsOfTheGreats: thought[][] = [
       authorLink: "https://citaty.su/zhivotnye-citaty-i-aforizmy-o-zhivotnyx",
     },
   ],
+  [
+    {
+      text: "Нации можно судить о её величии и моральном прогрессе по тому, как она обращается с животными",
+      author: "© Махатма Ганди",
+      authorLink: "https://ru.citaty.net/tsitaty/630300-makhatma-gandi-o-velichii-natsii-i-ee-moralnom-progresse-mozhno-sud/",
+    },
+  ],
 ];
 
 function getNextThought(): thought[] {

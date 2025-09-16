@@ -2,7 +2,7 @@
   <!-- view-Home-->
   <div class="container">
     <h1 class="text-center mt-2 font-monospace">
-      График работы: понедельник-суббота, с 10:00 до 18:00<br /><u
+      График работы: КРУГЛОСУТОЧНО - 27/7!<br /><u
         class="text-uppercase"
         >воскресенье: по предварительной записи</u
       >!
