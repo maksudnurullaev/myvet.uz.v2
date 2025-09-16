@@ -2,7 +2,7 @@
   <!-- view-Home-->
   <div class="container">
     <h1 class="text-center mt-2 font-monospace">
-      График работы: КРУГЛОСУТОЧНО - 27/7!
+      График работы: КРУГЛОСУТОЧНО - 24/7!
     </h1>
 
     <template v-if="isLessDate(2023, 1, 3)">
